@@ -1,4 +1,4 @@
-create("Account", fields(
+create("Accoxunt", fields(
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
   field("Website", sourceValue("$.data.website")),
@@ -6,5 +6,3 @@ create("Account", fields(
     return parseInt("17")
   })
 ));
-
-//this is from github! another change.
