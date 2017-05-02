@@ -1,4 +1,4 @@
-create("The Account", fields(
+create("Account", fields(
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
   field("Website", sourceValue("$.data.website")),
