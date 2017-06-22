@@ -5,6 +5,7 @@ create("Account", fields(
   field("Phone", function(state) {
     console.log("live later #2")
     return parseInt("19")
+    console.log("after the return!")
   })
 ));
 
