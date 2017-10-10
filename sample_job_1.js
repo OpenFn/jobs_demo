@@ -1,5 +1,5 @@
 create("Account", fields(
-  // ok, how bout now? from gh
+  // ok, how bout now? from ghnow
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
   field("Website", sourceValue("$.data.website")),
