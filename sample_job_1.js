@@ -1,5 +1,5 @@
 create("Account", fields(
-  // real good
+  // real good from github
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
   field("Website", sourceValue("$.data.website")),
