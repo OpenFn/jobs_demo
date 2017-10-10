@@ -1,5 +1,5 @@
 create("Account", fields(
-  //tryu now
+  //ok
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
   field("Website", sourceValue("$.data.website")),
