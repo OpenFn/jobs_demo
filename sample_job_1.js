@@ -1,5 +1,5 @@
 create("Account", fields(
-  // from gh, double to one!
+  // ok fine
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
   field("Website", sourceValue("$.data.website")),
