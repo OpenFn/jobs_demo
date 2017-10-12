@@ -1,4 +1,4 @@
-create("Account", fields(dd
+create("Account", fields(
   // ok fine no sha?
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
