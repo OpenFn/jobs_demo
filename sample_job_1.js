@@ -1,6 +1,6 @@
 create("Account", fields(
   // case 1, github to openfn.
-  // case 2, openfn to github again again
+  // case 2, openfn to github again again now
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
   field("Website", sourceValue("$.data.website")),
