@@ -1,5 +1,5 @@
 create("Account", fields(
-  // ok fine no sha? hi there.
+  // case 1, github to openfn.
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
   field("Website", sourceValue("$.data.website")),
