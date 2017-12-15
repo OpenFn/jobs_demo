@@ -1,5 +1,5 @@
 create("Account", fields(
-  // case 1, github to openfn..
+  // case 1, github to openfn.. edi
   // case 2, openfn to github...!!hjkhjkh
   field("Name", sourceValue("$.data.from")),
   field("Description", sourceValue("$.data.sampleText")),
