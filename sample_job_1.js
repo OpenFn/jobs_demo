@@ -11,12 +11,4 @@ create("Account", fields(
 ));
 
 //autodeploy set of!!.
-//....kk
-s
-
-
-
-
-
-
-sss
+//
