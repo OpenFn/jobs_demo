@@ -9,10 +9,3 @@ create("Account", fields(
     return false
   })
 ));
-
-//autodeploy set of!!.
-//
-
-// ok, let's do this
-
-// fine
